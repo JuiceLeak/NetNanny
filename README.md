@@ -2,7 +2,7 @@ Overview:
 NetNanny is an in-game moderation system that detects and responds
 to inappropriate behavior inside your Roblox experience while
 maintaining transparency and alignment with Roblox Terms of Service.
-(Read TOS references below — see "TOS References". (Line 47))
+(Read TOS references below — see "TOS References".)
 
 ----------------------------------------
 Quick summary
@@ -11,7 +11,7 @@ Quick summary
   - Triggered from **in-game chat** violations and are used to
     escalate toward bans when NNDataStore thresholds are exceeded.
   - Configured in: **NNDataStore ModuleScript**
-  - (See TOS References for data/notice requirements. (Line 47))
+  - (See TOS References for data/notice requirements.)
 
 - Solo Strikes
   - Triggered by profile/friends/groups/badges checks and other
@@ -19,7 +19,7 @@ Quick summary
     a private Solo Experience (private server). These **do not**
     count toward ban thresholds.
   - Configured in: **NetNanny ServerScript**
-  - (See TOS References for Solo Experience best practices. (Line 47))
+  - (See TOS References for Solo Experience best practices.)
 
 - BKSH Protection
   - Detects when a player is persistently targeted from inappropriate
@@ -89,7 +89,7 @@ Usage (install)
 ----------------------------------------
 1. Place NetNanny ServerScript and NNDataStore ModuleScript in ServerScriptService.
    Optional: Place NNChatNotification in StarterPlayerScripts to inform players their UserIDs
-   may be stored for moderation purposes. (See TOS References. (Line 47))
+   may be stored for moderation purposes. (See TOS References.)
 
 2. Ensure `PRIVATE_PLACE_ID` (ServerScript) points to a place in your game that does not
    deny players service. This ensures flagged users are teleported to a Solo Experience
