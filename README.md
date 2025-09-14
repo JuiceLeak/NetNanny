@@ -4,7 +4,6 @@ to inappropriate behavior inside your Roblox experience while
 maintaining transparency and alignment with Roblox Terms of Service.
 (Read TOS references below — see "TOS References".)
 
-----------------------------------------
 Quick summary
 ----------------------------------------
 - Ban Strikes
@@ -28,9 +27,6 @@ Quick summary
   - Configured in: **NetNanny ServerScript**
   - (See Key Functions & Flow for BKSH handling.)
 
-----------------------------------------
-...
-----------------------------------------
 Key Functions & Flow (developer quick-map)
 ----------------------------------------
 1. `inspectProfileAndMaybeSolo(player)`
@@ -64,9 +60,6 @@ Notes:
 - Solo strikes are intentionally separated so profile-based issues do not immediately ban a player.
 - bksh protection is independent of chat/profile checks; it strictly evaluates in-game positional targeting.
 
-----------------------------------------
-...
-----------------------------------------
 Customization & Configuration
 ----------------------------------------
 - ServerScript CONFIG keys to check:
@@ -82,9 +75,6 @@ Customization & Configuration
     - FUZZY_THRESHOLD controls fuzzy/leet tolerance.
     - FRIEND_PROFILE_CACHE_TTL and FRIEND_PROFILE_MAX_CONCURRENCY manage fetch performance.
 
-----------------------------------------
-...
-----------------------------------------
 Usage (install)
 ----------------------------------------
 1. Place NetNanny ServerScript and NNDataStore ModuleScript in ServerScriptService.
